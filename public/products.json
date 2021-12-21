@@ -1,0 +1,109 @@
+[
+  {
+    "id": 1,
+    "name": "Engine and Fuel System",
+    "description": "The function of the fuel system is to store and supply fuel to the cylinder chamber where it can be mixed with air, vaporized, and burned to produce energy. The fuel, which can be either gasoline or diesel is stored in a fuel tank. A fuel pump draws the fuel from the tank through fuel lines and delivers it through a fuel filter to either a carburetor or fuel injector, then delivered to the cylinder chamber for combustion",
+    "price": "$550.00",
+    "img": "https://i.ibb.co/CKJTHVM/diesel-engine-fuel-injection-system.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Brakes",
+    "description": "Do you hear noise when you start to brake? Do you feel your brakes grinding, vibrating or pulsating when you press down on the brake pedal? If any of these are true, and you want to regain the confidence of smooth braking, it’s time to repair your brakes.",
+    "price": "$750.00",
+    "img": "https://i.ibb.co/QfTHSF6/disc-brake-and-pads-on-a-vehicle.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Engine Overhauling/Replacement",
+    "description": "An overhauled engine is an engine which has been removed, disassembled (torn down), cleaned, inspected, and repaired as necessary and tested using factory service manual approved procedures. The procedure generally involves honing, new piston rings, bearings, gaskets, oil seals.",
+    "price": "$950.00",
+    "img": "https://i.ibb.co/hYnY3cG/engine.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Body Work",
+    "description": "Call for appointment.",
+    "price": "$350.00",
+    "img": "https://i.ibb.co/Jkn2B81/Man-with-protective-clothes-and-mask-painting-car-using-spray-compressor.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Emergency Roadside Service",
+    "description": "Call our Helpline for assistance.",
+    "price": "$350.00",
+    "img": "https://i.ibb.co/VNg9DDf/Emergency-roadside-assistance-1-1024x726.jpg"
+  },
+  {
+    "id": 6,
+    "name": "20 Minute Express Oil Change",
+    "description": "At Car Sensors, we know that your time is valuable.",
+    "price": "$350.00",
+    "img": "https://i.ibb.co/4PdtjgY/20MinOil.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Gearbox Overhauling/Replacement",
+    "description": "Often the term transmission refers simply to the gearbox that uses gears and gear trains to provide speed and torque conversions from a rotating power source to another device.",
+    "price": "$450.00",
+    "img": "https://i.ibb.co/Zmv8bwf/gear-repair-6.jpg"
+  },
+  {
+    "id": 8,
+    "name": "DTC Scanning",
+    "description": "An automotive scan tool (scanner) is an electronic tool used to interface with, diagnose and, sometimes, reprogram vehicle control modules",
+    "price": "$350.00",
+    "img": "https://i.ibb.co/BqpSRzZ/Automotive-Scan-Tool.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Electric and EFI System",
+    "description": "EFI stands for electronic fuel injection. It is a system that uses various sensors and a computer to monitor and control the fuel delivery to provide efficient power and mileage.",
+    "price": "$350.00",
+    "img": "https://i.ibb.co/9bC55kt/unnamed.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Hybrid Systems",
+    "description": "A vehicle is a hybrid if it utilizes more than one form of onboard energy to achieve propulsion. In practice, that means a hybrid will have a traditional internal-combustion engine and a fuel tank, as well as one or more electric motors and a battery pack. A petroleum-electric hybrid most commonly uses internal combustion engines (using a variety of fuels, generally gasoline or Diesel engines) and electric motors to power the vehicle. The energy is stored in the fuel of the internal combustion engine and an electric battery set.",
+    "price": "$350.00",
+    "img": "https://i.ibb.co/NrybJ5T/hybrid-pics.jpg"
+  },
+
+  {
+    "id": 11,
+    "name": "Air Condition",
+    "description": "The function of your vehicle’s air conditioner is to cool the air coming into your vehicle’s passenger compartment using three main parts: the compressor, condenser and evaporator. The ABM AC service is designed for periodic maintenance rather than AC repair, but rest assured ABM can recommend the next steps to be taken to get your AC system up and running. Early detection of leaks or damage to your vehicle AC system can save you time and money, keeping you and everyone in your vehicle cool and worry free.",
+    "price": "$350.00",
+    "img": "https://i.ibb.co/F750sPT/1-Nk-Mm-Dg-QNk-YQl-K-Au-JAQeug.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Suspension",
+    "description": "A vehicle suspension and steering system serves two purposes — managing the handling of your vehicle on the road and improving comfort by minimizing bumps and vibrations in the passenger cabin. Over time, key components such as ball joints, tie-rod ends and bushings can wear out even in normal use. Hitting or running over obstacles like potholes or curbs may damage some of the same components. Worn or broken parts can affect the ride, handling and safety of your vehicle.",
+    "price": "$350.00",
+    "img": "https://i.ibb.co/x3s41N9/Suspension-System.jpg"
+  },
+  {
+    "id": 13,
+    "name": "CVT Oil Change and Calibration",
+    "description": "Unlike traditional automatic transmissions, continuously variable transmissions don't have a gearbox with a set number of gears, which means they don't have interlocking toothed wheels. The most common type of CVT operates on an ingenious pulley systemthat allows an infinite variability between highest and lowest gears with no discrete steps or shifts.CVT Fluid should be changed every 30,000 km.",
+    "price": "$350.00",
+    "img": "https://i.ibb.co/WP9y6ZN/maxresdefault-1.jpg"
+  },
+
+  {
+    "id": 14,
+    "name": "Regular Maintenance Including Oil & Filter Change",
+    "description": "Regular oil changes keep engines running smooth and help prevent issues down the road, and many drivers rely on oil changes with conventional motor oil to keep their vehicles in top shape. If you drive in more severe conditions — temperature extremes, lots of stop and go — manufacturers generally recommend that you replace your oil more often. ABM can advise you on the right oil change interval for your vehicle based on the way you drive. Oil change should be done every 3 months or 3000 km whichever comes first.",
+    "price": "$350.00",
+    "img": "https://i.ibb.co/jhj64kL/Car-oil.jpg"
+  },
+  {
+    "id": 15,
+    "name": "A.T.F Change",
+    "description": "Like other vital automotive fluids, transmission fluid deteriorates over time. Hard use — such as frequent stop-and-go city driving will accelerate the deterioration. That kind of driving raises the operating temperature of the transmission, and heat puts more strain on the transmission and the fluid. Transmission fluid often is red but can come in other colors, and as it deteriorates it tends to turn darker. It may also acquire a burned odor that could indicate it needs to be changed or that the transmission is developing mechanical problems. Another indication it needs changing is dirt or other debris in the fluid. It is recommended that transmission fluid should be changed every 25,000 km or once a year in order to prolong the life of the transmission.",
+    "price": "$350.00",
+    "img": "https://i.ibb.co/1TnhRHX/maxresdefault.jpg"
+  }
+]

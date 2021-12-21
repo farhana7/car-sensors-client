@@ -1,0 +1,97 @@
+[
+  {
+    "id": 1,
+    "name": "TOYOTA",
+    "image": "https://i.ibb.co/Wxgg8cy/104406660-konskie-poland-may-06-2018-toyota-logo-on-a-paper-sheet.webp"
+  },
+  {
+    "id": 2,
+    "name": "LEXUS",
+    "image": "https://i.ibb.co/2Fs3CLm/27-270674-lexus-logo-png-wallpaper-lexus-car-logo-png.jpg"
+  },
+  {
+    "id": 3,
+    "name": "MITSUBISHI",
+    "image": "https://i.ibb.co/x8VMSRB/logo-mitsubishi-motors-logo-mitsubishi-motors-car-color-vector-format-aviable-ai-124401284.jpg"
+  },
+  {
+    "id": 4,
+    "name": "NISSAN",
+    "image": "https://i.ibb.co/FWFnhRj/nissan.png"
+  },
+  {
+    "id": 5,
+    "name": "KIA",
+    "image": "https://i.ibb.co/Zh2W9TC/908-9086214-kia-motors-logo-png-image-kia-car-logo.jpg"
+  },
+  {
+    "id": 6,
+    "name": "HYUNDAI",
+    "image": "https://i.ibb.co/d59tVHn/2017-05-20-T085920-Z-1-LYNXNPED4-J06-R-RTROPTP-3-HYUNDAI-MOTOR-RECALL.webp"
+  },
+  {
+    "id": 7,
+    "name": "HONDA",
+    "image": "https://i.ibb.co/JCnZfsP/download.png"
+  },
+  {
+    "id": 8,
+    "name": "ACURA",
+    "image": "https://i.ibb.co/r7GNHbq/acura-symbol.jpg"
+  },
+  {
+    "id": 9,
+    "name": "MAZDA",
+    "image": "https://i.ibb.co/Fh2Zn5p/mHqFwr.webp"
+  },
+  {
+    "id": 10,
+    "name": "AUDI",
+    "image": "https://i.ibb.co/C1vDZKk/916612.webp"
+  },
+  {
+    "id": 11,
+    "name": "MERCEDES",
+    "image": "https://i.ibb.co/7bFCGMr/download.jpg"
+  },
+  {
+    "id": 12,
+    "name": "BMW",
+    "image": "https://i.ibb.co/PwfhdwP/unnamed-1.jpg"
+  },
+  {
+    "id": 13,
+    "name": "GM",
+    "image": "https://i.ibb.co/vZC6BB1/General-Motors-logo-2010-3300x3300.png"
+  },
+  {
+    "id": 14,
+    "name": "FORD",
+    "image": "https://i.ibb.co/DbRGkrp/images.jpg"
+  },
+  {
+    "id": 15,
+    "name": "LAND",
+    "image": "https://i.ibb.co/zVtzk74/4e7fafca6d8de52aa8194f7a5c854324.jpg"
+  },
+  {
+    "id": 16,
+    "name": "ROVER",
+    "image": "https://i.ibb.co/vP56bS4/4c203c254e26e90e78fb26ba962c3682.jpg"
+  },
+  {
+    "id": 17,
+    "name": "JAGUAR",
+    "image": "https://i.ibb.co/Njf3Sfs/file76ad2adv22t1gq3d3a1a-1573541719.jpg"
+  },
+  {
+    "id": 18,
+    "name": "SUBARU",
+    "image": "https://i.ibb.co/gWnbMyQ/download-1.jpg"
+  },
+  {
+    "id": 19,
+    "name": "SUZUKI",
+    "image": "https://i.ibb.co/4dYk3d8/c42139cdd59f7d2b4c6a1df0cb0f59f0.jpg"
+  }
+]
