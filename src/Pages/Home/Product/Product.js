@@ -52,7 +52,7 @@ const Product = ({ product }) => {
           <Link
             style={{ textDecoration: "none" }}
             className="w-full"
-            to={`/purchase/${_id}`}
+            to={`/booking/${_id}`}
           >
             <Button
               variant="contained"

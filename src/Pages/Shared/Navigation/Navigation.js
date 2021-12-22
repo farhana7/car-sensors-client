@@ -7,14 +7,14 @@ import Button from "@mui/material/Button";
 // import IconButton from "@mui/material/IconButton";
 // import MenuIcon from "@mui/icons-material/Menu";
 import { NavLink } from "react-router-dom";
+import useAuth from "../../../hooks/useAuth";
 
 const Navigation = () => {
+  const { user, logOut } = useAuth();
+
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar
-        position="static"
-        style={{ backgroundColor: "#403d39", height: "90px" }}
-      >
+      <AppBar position="static" style={{ backgroundColor: "#403d39" }}>
         <Toolbar>
           {/* <IconButton
             size="large"
@@ -52,18 +52,6 @@ const Navigation = () => {
               Home
             </Button>
           </NavLink>
-          <NavLink style={{ textDecoration: "none" }} to="/about">
-            <Button
-              sx={{
-                // fontWeight: "bold",
-                fontSize: 17,
-                color: "white",
-              }}
-            >
-              About us
-            </Button>
-          </NavLink>
-
           <NavLink style={{ textDecoration: "none" }} to="/products">
             <Button
               sx={{
@@ -75,7 +63,90 @@ const Navigation = () => {
               Explore
             </Button>
           </NavLink>
-          <Button color="inherit">Login</Button>
+          <NavLink style={{ textDecoration: "none" }} to="/about">
+            <Button
+              sx={{
+                // fontWeight: "bold",
+                fontSize: 17,
+                color: "white",
+              }}
+            >
+              About Us
+            </Button>
+          </NavLink>
+
+          <NavLink style={{ textDecoration: "none" }} to="/myOrders">
+            <Button
+              sx={{
+                // fontWeight: "bold",
+                fontSize: 17,
+                color: "white",
+              }}
+            >
+              My Orders
+            </Button>
+          </NavLink>
+          <NavLink style={{ textDecoration: "none" }} to="/addAProduct">
+            <Button
+              sx={{
+                // fontWeight: "bold",
+                fontSize: 17,
+                color: "#dc2f02",
+              }}
+            >
+              Add Product
+            </Button>
+          </NavLink>
+          <NavLink style={{ textDecoration: "none" }} to="/manageProducts">
+            <Button
+              sx={{
+                // fontWeight: "bold",
+                fontSize: 17,
+                color: "#dc2f02",
+              }}
+            >
+              Manage Products
+            </Button>
+          </NavLink>
+
+          {user?.email ? (
+            <Box>
+              <Button
+                sx={{
+                  // fontWeight: "bold",
+                  fontSize: 17,
+                }}
+                onClick={logOut}
+                color="inherit"
+              >
+                Logout
+              </Button>
+            </Box>
+          ) : (
+            <NavLink
+              style={{ textDecoration: "none", color: "white" }}
+              to="/login"
+            >
+              <Button
+                sx={{
+                  // fontWeight: "bold",
+                  fontSize: 17,
+                }}
+                color="inherit"
+              >
+                Login
+              </Button>
+            </NavLink>
+          )}
+          <>
+            Signed in as:
+            <a
+              style={{ textDecoration: "none", color: "white" }}
+              href="/#login"
+            >
+              {user?.displayName}
+            </a>
+          </>
         </Toolbar>
       </AppBar>
     </Box>

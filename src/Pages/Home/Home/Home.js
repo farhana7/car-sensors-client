@@ -1,24 +1,25 @@
 import { Box, Container, Grid, Typography } from "@mui/material";
 import React, { useEffect, useState } from "react";
-import Footer from "../../Shared/Footer/Footer";
-import Navigation from "../../Shared/Navigation/Navigation";
+// import Footer from "../../Shared/Footer/Footer";
+// import Navigation from "../../Shared/Navigation/Navigation";
 import Banner from "../Banner/Banner";
 import Brands from "../Brands/Brands";
 import Product from "../Product/Product";
 import SomeExtra from "../SomeExtra/SomeExtra";
+// import Main from "../Main/Main";
 
 const Home = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    fetch("products.json")
+    fetch("http://localhost:5000/products")
       .then((res) => res.json())
       .then((data) => setProducts(data));
   }, []);
 
   return (
     <div>
-      <Navigation></Navigation>
+      {/* <Navigation></Navigation> */}
       <Banner></Banner>
       <Box sx={{ flexGrow: 1 }}>
         <Typography
@@ -48,7 +49,7 @@ const Home = () => {
           excellence and will not compromise with customer satisfaction.
         </Typography>
       </Box>
-
+      {/* <Main></Main> */}
       <Box>
         <Typography
           variant="h3"
@@ -88,7 +89,7 @@ const Home = () => {
       </Box>
       <SomeExtra></SomeExtra>
       <Brands></Brands>
-      <Footer></Footer>
+      {/* <Footer></Footer> */}
     </div>
   );
 };

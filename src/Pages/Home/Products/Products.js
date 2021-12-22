@@ -1,21 +1,21 @@
 import { Box, Container, Grid, Typography } from "@mui/material";
 import React, { useEffect, useState } from "react";
-import Footer from "../../Shared/Footer/Footer";
-import Navigation from "../../Shared/Navigation/Navigation";
+// import Footer from "../../Shared/Footer/Footer";
+// import Navigation from "../../Shared/Navigation/Navigation";
 import Product from "../Product/Product";
 
 const Products = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    fetch("products.json")
+    fetch("http://localhost:5000/products")
       .then((res) => res.json())
       .then((data) => setProducts(data));
   }, []);
 
   return (
     <Box>
-      <Navigation></Navigation>
+      {/* <Navigation></Navigation> */}
       <Box>
         <Box sx={{ flexGrow: 1 }}>
           <Typography
@@ -56,7 +56,7 @@ const Products = () => {
           </Container>
         </Box>
       </Box>
-      <Footer></Footer>
+      {/* <Footer></Footer> */}
     </Box>
   );
 };

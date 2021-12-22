@@ -1,46 +1,47 @@
 [
   {
     "id": 1,
-    "name": "Engine and Fuel System",
-    "description": "The function of the fuel system is to store and supply fuel to the cylinder chamber where it can be mixed with air, vaporized, and burned to produce energy. The fuel, which can be either gasoline or diesel is stored in a fuel tank. A fuel pump draws the fuel from the tank through fuel lines and delivers it through a fuel filter to either a carburetor or fuel injector, then delivered to the cylinder chamber for combustion",
-    "price": "$550.00",
-    "img": "https://i.ibb.co/CKJTHVM/diesel-engine-fuel-injection-system.jpg"
-  },
-  {
-    "id": 2,
-    "name": "Brakes",
-    "description": "Do you hear noise when you start to brake? Do you feel your brakes grinding, vibrating or pulsating when you press down on the brake pedal? If any of these are true, and you want to regain the confidence of smooth braking, it’s time to repair your brakes.",
-    "price": "$750.00",
-    "img": "https://i.ibb.co/QfTHSF6/disc-brake-and-pads-on-a-vehicle.jpg"
-  },
-  {
-    "id": 3,
-    "name": "Engine Overhauling/Replacement",
-    "description": "An overhauled engine is an engine which has been removed, disassembled (torn down), cleaned, inspected, and repaired as necessary and tested using factory service manual approved procedures. The procedure generally involves honing, new piston rings, bearings, gaskets, oil seals.",
-    "price": "$950.00",
-    "img": "https://i.ibb.co/hYnY3cG/engine.jpg"
-  },
-  {
-    "id": 4,
     "name": "Body Work",
     "description": "Call for appointment.",
     "price": "$350.00",
     "img": "https://i.ibb.co/Jkn2B81/Man-with-protective-clothes-and-mask-painting-car-using-spray-compressor.jpg"
   },
   {
-    "id": 5,
+    "id": 2,
     "name": "Emergency Roadside Service",
     "description": "Call our Helpline for assistance.",
     "price": "$350.00",
     "img": "https://i.ibb.co/VNg9DDf/Emergency-roadside-assistance-1-1024x726.jpg"
   },
   {
-    "id": 6,
+    "id": 3,
     "name": "20 Minute Express Oil Change",
     "description": "At Car Sensors, we know that your time is valuable.",
     "price": "$350.00",
     "img": "https://i.ibb.co/4PdtjgY/20MinOil.jpg"
   },
+  {
+    "id": 4,
+    "name": "Engine and Fuel System",
+    "description": "The function of the fuel system is to store and supply fuel to the cylinder chamber where it can be mixed with air, vaporized, and burned to produce energy. The fuel, which can be either gasoline or diesel is stored in a fuel tank. A fuel pump draws the fuel from the tank through fuel lines and delivers it through a fuel filter to either a carburetor or fuel injector, then delivered to the cylinder chamber for combustion",
+    "price": "$550.00",
+    "img": "https://i.ibb.co/CKJTHVM/diesel-engine-fuel-injection-system.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Brakes",
+    "description": "Do you hear noise when you start to brake? Do you feel your brakes grinding, vibrating or pulsating when you press down on the brake pedal? If any of these are true, and you want to regain the confidence of smooth braking, it’s time to repair your brakes.",
+    "price": "$750.00",
+    "img": "https://i.ibb.co/QfTHSF6/disc-brake-and-pads-on-a-vehicle.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Engine Overhauling/Replacement",
+    "description": "An overhauled engine is an engine which has been removed, disassembled (torn down), cleaned, inspected, and repaired as necessary and tested using factory service manual approved procedures. The procedure generally involves honing, new piston rings, bearings, gaskets, oil seals.",
+    "price": "$950.00",
+    "img": "https://i.ibb.co/hYnY3cG/engine.jpg"
+  },
+
   {
     "id": 7,
     "name": "Gearbox Overhauling/Replacement",

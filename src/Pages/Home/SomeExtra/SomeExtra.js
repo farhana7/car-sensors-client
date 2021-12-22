@@ -1,7 +1,7 @@
 import { Grid, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import React from "react";
-import pajero from "../../../images/pajero.jpg";
+// import pajero from "../../../images/pajero.jpg";
 import mitsubishi from "../../../images/Mitsubishi.jpg";
 
 const someBg = {

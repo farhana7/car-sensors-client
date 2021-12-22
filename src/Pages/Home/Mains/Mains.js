@@ -1,14 +1,14 @@
 import { Box, Container, Grid, Typography } from "@mui/material";
 import React, { useEffect, useState } from "react";
-import Brand from "../Brand/Brand";
+import Main from "../Main/Main";
 
-const Brands = () => {
-  const [brands, setBrands] = useState([]);
+const Mains = () => {
+  const [mains, setMains] = useState([]);
 
   useEffect(() => {
-    fetch("brands.json")
+    fetch("mains.json")
       .then((res) => res.json())
-      .then((data) => setBrands(data));
+      .then((data) => setMains(data));
   }, []);
 
   return (
@@ -24,7 +24,7 @@ const Brands = () => {
             color: "#dc2f02",
           }}
         >
-          We Service _________________________
+          We Service ---
         </Typography>
 
         <Container>
@@ -33,8 +33,8 @@ const Brands = () => {
             spacing={{ xs: 2, md: 3 }}
             columns={{ xs: 4, sm: 8, md: 12 }}
           >
-            {brands.map((brand) => (
-              <Brand key={brand.id} brand={brand}></Brand>
+            {mains.map((main) => (
+              <Main key={main.id} main={main}></Main>
             ))}
           </Grid>
         </Container>
@@ -43,4 +43,4 @@ const Brands = () => {
   );
 };
 
-export default Brands;
+export default Mains;

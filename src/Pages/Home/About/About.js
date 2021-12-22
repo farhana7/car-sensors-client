@@ -1,7 +1,7 @@
 import { Box, Button, Grid, Typography } from "@mui/material";
 import React from "react";
-import Footer from "../../Shared/Footer/Footer";
-import Navigation from "../../Shared/Navigation/Navigation";
+// import Footer from "../../Shared/Footer/Footer";
+// import Navigation from "../../Shared/Navigation/Navigation";
 
 // const aboutBg = {
 //   background: `url(${})`,
@@ -13,7 +13,7 @@ import Navigation from "../../Shared/Navigation/Navigation";
 const About = () => {
   return (
     <Box>
-      <Navigation></Navigation>
+      {/* <Navigation></Navigation> */}
       <Box>
         <Typography
           variant="h3"
@@ -63,7 +63,7 @@ const About = () => {
       </Button>
     </Box> */}
       </Box>
-      <Footer></Footer>
+      {/* <Footer></Footer> */}
     </Box>
   );
 };

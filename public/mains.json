@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "Sales",
+    "imag": "https://i.ibb.co/fFd9jYx/sales.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Service",
+    "imag": "https://i.ibb.co/mDrkcbh/Car-maintenance-icon-design-48x48-perfect-pixel-and-editable-stroke.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Spare Parts",
+    "imag": "https://i.ibb.co/bmRPBz2/depositphotos-106761682-stock-illustration-outline-icons-car-parts-and.jpg"
+  }
+]

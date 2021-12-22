@@ -1,3 +1,4 @@
+import React from "react";
 import {
   Box,
   Card,
@@ -6,16 +7,12 @@ import {
   Grid,
   Typography,
 } from "@mui/material";
-import React from "react";
 
-const Brand = ({ brand }) => {
-  const { name, image } = brand;
+const Main = ({ main }) => {
+  const { name, imag } = main;
 
   return (
     <Box>
-      <Typography sx={{ border: "1px solid green" }}></Typography>
-      <br />
-      <br />
       <Grid item sx={{ width: 200, mb: 5 }} xs={4} sm={4} md={4}>
         <Card
           sx={{
@@ -31,11 +28,11 @@ const Brand = ({ brand }) => {
             component="img"
             //   height="140"
             style={{ width: "auto ", height: "80px", margin: "0 auto" }}
-            image={image}
+            image={imag}
             alt="green iguana"
           />
           <CardContent>
-            <Typography variant="h5" color="#403d39" component="div">
+            <Typography variant="h2" color="#403d39" component="div">
               {name}
             </Typography>
             <br />
@@ -46,4 +43,4 @@ const Brand = ({ brand }) => {
   );
 };
 
-export default Brand;
+export default Main;
