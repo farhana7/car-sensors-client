@@ -13,6 +13,7 @@ import PrivateRoute from "./Pages/Login/PrivateRoute/PrivateRoute";
 import AddProduct from "./Pages/AddProduct/AddProduct";
 import ManageProducts from "./Pages/ManageProducts/ManageProducts";
 import MyOrders from "./Pages/MyOrders/MyOrders";
+import Featured from "./Pages/Home/Featured/Featured";
 
 function App() {
   return (
@@ -39,6 +40,9 @@ function App() {
             <Route path="/register">
               <Register />
             </Route>
+            <Route path="/featured">
+              <Featured />
+            </Route>
 
             <Route path="/booking/:productId">
               <Booking></Booking>
@@ -46,12 +50,12 @@ function App() {
             <Route path="/myOrders">
               <MyOrders></MyOrders>
             </Route>
-            <PrivateRoute path="/addAProduct">
+            <Route path="/addAProduct">
               <AddProduct />
-            </PrivateRoute>
-            <PrivateRoute path="/manageProducts">
+            </Route>
+            <Route path="/manageProducts">
               <ManageProducts></ManageProducts>
-            </PrivateRoute>
+            </Route>
           </Switch>
           <Footer></Footer>
         </Router>

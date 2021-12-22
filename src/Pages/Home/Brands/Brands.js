@@ -21,7 +21,7 @@ const Brands = () => {
             mb: 10,
             fontStyle: "italic",
             fontWeight: "bold",
-            color: "#dc2f02",
+            color: "#9b2226",
           }}
         >
           We Service _________________________

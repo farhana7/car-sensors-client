@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 // import Navigation from "../../Shared/Navigation/Navigation";
 import Banner from "../Banner/Banner";
 import Brands from "../Brands/Brands";
+import Featured from "../Featured/Featured";
 import Product from "../Product/Product";
 import SomeExtra from "../SomeExtra/SomeExtra";
 // import Main from "../Main/Main";
@@ -18,7 +19,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div>
+    <Box>
       {/* <Navigation></Navigation> */}
       <Banner></Banner>
       <Box sx={{ flexGrow: 1 }}>
@@ -49,6 +50,7 @@ const Home = () => {
           excellence and will not compromise with customer satisfaction.
         </Typography>
       </Box>
+      <Featured></Featured>
       {/* <Main></Main> */}
       <Box>
         <Typography
@@ -57,7 +59,7 @@ const Home = () => {
             mt: 10,
             mb: 3,
             fontStyle: "italic",
-            color: "#dc2f02",
+            color: "#9b2226",
             fontWeight: "bold",
           }}
         >
@@ -90,7 +92,7 @@ const Home = () => {
       <SomeExtra></SomeExtra>
       <Brands></Brands>
       {/* <Footer></Footer> */}
-    </div>
+    </Box>
   );
 };
 

@@ -20,6 +20,7 @@ const Product = ({ product }) => {
           minWidth: 275,
           mb: 10,
           borderRadius: 0,
+          // boxShadow: 0,
           // border: "1px solid #264653",
         }}
       >

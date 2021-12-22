@@ -25,7 +25,7 @@ const Footer = () => {
         >
           Car Sensors<span style={{ fontSize: 20 }}>.com</span>
         </Typography>
-        <Typography>Open: 9am - 6pm || Helpline: 01996777000</Typography>
+        <Typography>Open: 9am - 6pm || Helpline: +81996777000</Typography>
         <br />
         Copyright, 2021 Car sensors.com Ltd. and its subsidiaries and
         affiliates. © All Rights Reserved.
