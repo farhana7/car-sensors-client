@@ -10,13 +10,15 @@ const AddProduct = () => {
   const onSubmit = (data) => {
     console.log(data);
 
-    axios.post("http://localhost:5000/products", data).then((res) => {
-      if (res.data.insertedId) {
-        alert("added successfully");
-        reset();
-      }
-      //   console.log(res);
-    });
+    axios
+      .post("https://mighty-reef-57092.herokuapp.com/products", data)
+      .then((res) => {
+        if (res.data.insertedId) {
+          alert("added successfully");
+          reset();
+        }
+        //   console.log(res);
+      });
   };
 
   return (

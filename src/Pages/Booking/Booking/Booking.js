@@ -30,7 +30,7 @@ const Booking = () => {
   };
 
   useEffect(() => {
-    fetch(`http://localhost:5000/products/${productId}`)
+    fetch(`https://mighty-reef-57092.herokuapp.com/products/${productId}`)
       .then((res) => res.json())
       .then((data) => setProduct(data));
   }, []);
