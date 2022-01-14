@@ -50,12 +50,12 @@ function App() {
             <Route path="/myOrders">
               <MyOrders></MyOrders>
             </Route>
-            <Route path="/addAProduct">
+            <PrivateRoute path="/addAProduct">
               <AddProduct />
-            </Route>
-            <Route path="/manageProducts">
+            </PrivateRoute>
+            <PrivateRoute path="/manageProducts">
               <ManageProducts></ManageProducts>
-            </Route>
+            </PrivateRoute>
           </Switch>
           <Footer></Footer>
         </Router>
