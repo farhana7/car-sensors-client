@@ -86,7 +86,7 @@ const Navigation = () => {
               My Orders
             </Button>
           </NavLink>
-          <NavLink style={{ textDecoration: "none" }} to="/addAProduct">
+          {/* <NavLink style={{ textDecoration: "none" }} to="/addAProduct">
             <Button
               sx={{
                 // fontWeight: "bold",
@@ -107,7 +107,7 @@ const Navigation = () => {
             >
               Manage Products
             </Button>
-          </NavLink>
+          </NavLink> */}
 
           {user?.email ? (
             <Box>
